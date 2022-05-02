@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather+Sans:wght@300;400&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>CSS CheatSheet</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">React</a>
+                </li>
+                <li>
+                    <a href="./index.html">JS</a>
+                </li>
+                <li>
+                    <a href="./index.html">CSS</a>
+                </li>
+                <li>
+                    <a href="./index.html">HTML</a>
+                </li>
+                <li>
+                    <a href="./index.html">Projects</a>
+                </li>
+                <li>
+                    <a href="./index.html">Me</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>CSS CheatSheet</h1>
+                <p>A collection of CSS guides for everyone</p>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <h1 class="cheatsheet-title" >Inline Blocks</h1>
+            <div class="dotted-container">
+                <p class="inline-block"> Block one </p>
+                <p class="inline-block"> Block two </p>
+                <p class="inline-block"> Block three </p>
+                <p class="inline-block"> Block four </p>
+            </div>
+            <div class="code-container">
+                <span class="caption">
+                  <p>
+                      <span class="selector">p</span> <span class="brackets">{</span> <br>
+                        &nbsp; &nbsp; display<span class="brackets">:</span> <span class="value">inline-block</span><span class="brackets">;</span> <br>
+                        &nbsp; &nbsp; background-color<span class="brackets">: #</span><span class="value">09bede</span></span><span class="brackets">;</span> <br> 
+                        &nbsp; &nbsp; padding<span class="brackets">:</span> <span class="int-val">20px</span><span class="brackets">;</span> <br>
+                        &nbsp; &nbsp; margin <span class="brackets">:</span> <span class="int-val">0 10px</span><span class="brackets">;</span>  <br>                     
+                        &nbsp; <span class="brackets">}</span>
+                  </p>
+                </span>
+            </div>
+            <div class="caption-container">
+                <span class="caption">
+                    <p class="value">
+                       Inline-block elements can have set width and height and can appear next to each other. They do not take up their entire container. 
+                    </p>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <h1 class="cheatsheet-title">Inline Elements</h1>
+            <div class="dotted-container">
+                <p class="inline">
+                    I'm an entire text block, but <span class="inline">some</span> parts of me are inline using a <span class="brackets">&lt;</span><span class="inline">span</span><span class="brackets">&gt;</span> which are stylized.
+                </p>
+            </div>
+            <div class="code-container">
+                <span class="caption">
+                  <p class="value">
+                      <span class="brackets">&lt;</span><span class="inline">p</span><span class="brackets">&gt;</span> I'm an entire text block, but <span class="brackets">&lt;</span><span class="inline">span</span><span class="brackets">&gt;</span>some<span class="brackets">&lt;</span><span class="inline">span</span><span class="brackets">&gt;</span> parts of me are using a &lt;span&gt; which are stylized. <span class="brackets">&lt;/</span><span class="inline">p</span><span class="brackets">&gt;</span>
+                  </p>
+                </span>
+            </div>
+            <div class="caption-container">
+                <span class="caption">
+                    <p class="value">
+                        Inline elements take up as little space as possible and cannot have manually adusted width or height. Apply a classname to the span to stylize.
+                    </p>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <h1 class="cheatsheet-title">Block Elements</h1>
+            <div class="dotted-container">
+                <p class="block">
+                    Block element
+                </p>
+            </div>
+            <div class="code-container">
+                <span class="caption">
+                    <p>
+                        <span class="selector">p</span> <span class="brackets">{</span> <br>
+                          &nbsp; &nbsp; background-color<span class="brackets">: #</span><span class="value">09bede</span></span><span class="brackets">;</span> <br> 
+                          &nbsp; &nbsp; padding<span class="brackets">:</span> <span class="int-val">20px</span><span class="brackets">;</span> <br>
+                          &nbsp; &nbsp; margin <span class="brackets">:</span> <span class="int-val">0 10px</span><span class="brackets">;</span>  <br>                     
+                          &nbsp; <span class="brackets">}</span>
+                    </p>
+                </span>
+            </div>
+            <div class="caption-container">
+                <span class="caption">
+                    <p class="value">
+                        Block elements take up the width of their container and have manually adjusted height. Additionally, you can adjust height using padding.
+                    </p>
+                </span>
+            </div>
+        </div>
+
+        
+        <div class="container">
+            <h1 class="cheatsheet-title">Block Elements</h1>
+            <div class="dotted-container">
+                <p class="block">
+                    Block element
+                </p>
+            </div>
+            <div class="code-container">
+                <span class="caption">
+                    <p>
+                        <span class="selector">p</span> <span class="brackets">{</span> <br>
+                          &nbsp; &nbsp; background-color<span class="brackets">: #</span><span class="value">09bede</span></span><span class="brackets">;</span> <br> 
+                          &nbsp; &nbsp; padding<span class="brackets">:</span> <span class="int-val">20px</span><span class="brackets">;</span> <br>
+                          &nbsp; &nbsp; margin <span class="brackets">:</span> <span class="int-val">0 10px</span><span class="brackets">;</span>  <br>                     
+                          &nbsp; <span class="brackets">}</span>
+                    </p>
+                </span>
+            </div>
+            <div class="caption-container">
+                <span class="caption">
+                    <p class="value">
+                        Block elements take up the width of their container and have manually adjusted height. Additionally, you can adjust height using padding.
+                    </p>
+                </span>
+            </div>
+        </div>
+
+    </main>
+    
+</body>
+</html>
