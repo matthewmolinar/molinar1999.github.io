@@ -66,6 +66,8 @@ main {
 .jumbotron h1,
 .jumbotron p {
     color: #333;
+    letter-spacing: .1em;
+
     font-family: 'Merriweather Sans', sans-serif;
 
 }
@@ -73,6 +75,7 @@ main {
 .cheatsheet-title {
     padding: 10px 20px;
     background-color: #141319;
+    letter-spacing: .1em;
     color: white;
     width: 300px;
     margin-bottom: 20px;
@@ -88,7 +91,7 @@ main {
 
 .container {
     max-width: 940px;
-    margin: 0 auto 120px auto;
+    margin: 0 auto 70px auto;
     padding: 20px 10px;
     text-align: center;
 }
@@ -113,6 +116,7 @@ p.inline-block {
     border-color: rgba(0,0,0,0.2);
     text-align: start;
     padding: 20px;
+    margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -187,6 +191,169 @@ span.inline {
     font-weight: 300;
 
 }
+
+/* DESIGN PAGE */
+
+
+/* DESIGN: COLORS */
+
+.color-block-black {
+    background-color: #000000;
+    color: white;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 20px;
+    box-shadow: 6px 6px 1px 1px rgba(0, 0, 0, .2);
+
+}
+
+div[class^="color-block-"] p.color {
+    top: 50px;
+    left: 25px;
+    position: relative;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+div[class^="color-block-"] p.code{
+    top: 90px;
+    left: 50px;
+    position: relative;
+    color: black;
+    width: 80px;
+    z-index: 10;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14px;
+    background-color:rgba(255, 255, 255, 0.506);
+    box-shadow: 6px 6px 1px 1px rgba(0, 0, 0, .5);
+}
+
+
+
+.color-block-blue {
+    background-color: #14213D;
+    color: white;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    box-shadow: 6px 6px 1px 1px rgba(0, 0, 0, .2);
+
+}
+
+.color-block-orange {
+    background-color: #FCA311;
+    color: black;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    box-shadow: 6px 6px 1px 1px rgba(0, 0, 0, .2);
+
+}
+
+.color-block-platinum {
+    background-color: #E5E5E5;
+    color: black;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    box-shadow: 6px 6px 1px 1px rgba(0, 0, 0, .2);
+
+}
+
+.color-block-white {
+    background-color: #ffffff;
+    color: black;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    box-shadow: 6px 6px 1px 1px rgba(0, 0, 0, .2);
+
+}
+
+/* DESIGN: FONTS */
+
+.font-abril h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    color: #14213D;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.font-abril p {
+    font-size: 16px;
+    color: #14213D;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.font-merriweather h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 40px;
+    color: #14213D;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.font-merriweather p {
+    font-size: 14px;
+    color: #14213D;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+}
+
+.font-roboto h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    color: #14213D;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.font-roboto p {
+    font-size: 14px;
+    color: #14213D;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+.code-container-fixed {
+    position: relative;
+    top: -140px;
+    left: 925px;
+    width: 200px;
+    z-index: 20;
+    background-color: #FCA311;
+    opacity: 0.9;
+    box-shadow: 6px 6px 1px 1px rgba(0, 0, 0, .3);
+    padding: 10px;
+    text-align: start;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    letter-spacing: .1em;
+    margin: 0;
+}
+
+
+
+
+
 
 
 
