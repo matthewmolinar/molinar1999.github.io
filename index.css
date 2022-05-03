@@ -349,6 +349,21 @@ div[class^="color-block-"] p.code{
 }
 
 
+/* DESIGN: TEXT STYLES */
+
+.cheatsheet-title-centered {
+    padding: 10px 20px;
+    position: relative;
+    left: 250px;
+    background-color: #141319;
+    letter-spacing: .1em;
+    color: white;
+    width: 300px;
+    box-shadow: 6px 6px 1px 1px rgba(0, 0, 0, .2);
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: start;
+    margin-bottom: 20px;
+}
 
 
 
