@@ -44,6 +44,15 @@ a:hover {
     border-radius: 5px;
 }
 
+a.disabled {
+    color: gray;
+}
+
+a.disabled:hover {
+    cursor: not-allowed;
+    background-color: #333333;
+}
+
 
 /* MAIN */
 
